@@ -1,6 +1,22 @@
 # Exploring Explainable AI Techniques for Improved Interpretability in Lung and Colon Cancer Classification
 ## Abstract
-<!--Lung and colon cancer are serious worldwide health challenges that require early and precise identification to reduce mortality risks. However, diagnosis, which is mostly dependent on histopathologists' competence, presents difficulties and hazards when expertise is insufficient. While diagnostic methods like imaging and blood markers contribute to early detection, histopathology remains the gold standard, although time-consuming and vulnerable to inter-observer mistakes. Limited access to high-end technology further limits patients' ability to receive immediate medical care and diagnosis. Recent advances in deep learning have generated interest in its application to medical imaging analysis, specifically the use of histopathological images to diagnose lung and colon cancer. The goal of this investigation is to use and adapt existing pre-trained CNN-based models, such as Xception, DenseNet201, ResNet101, InceptionV3, DenseNet121, DenseNet169, ResNet152, and InceptionResNetV2, to enhance classification through better augmentation strategies. The results show tremendous progress, with all eight models reaching impressive accuracy ranging from 97% to 99%. Furthermore, attention visualization techniques such as GradCAM, GradCAM++, ScoreCAM, Faster Score-CAM, and LayerCAM, as well as Vanilla Saliency and SmoothGrad, are used to provide insights into the models' classification decisions, thereby improving interpretability and understanding of malignant and benign image classification -->
+
+Lung and colon cancer are serious worldwide health challenges that require early and precise identification
+to reduce mortality risks. However, diagnosis, which is mostly dependent on histopathologists’ competence,
+presents difficulties and hazards when expertise is insufficient. While diagnostic methods like imaging and
+blood markers contribute to early detection, histopathology remains the gold standard, although timeconsuming and vulnerable to inter-observer mistakes. Limited access to high-end technology further limits
+patients’ ability to receive immediate medical care and diagnosis. Recent advances in deep learning have
+generated interest in its application to medical imaging analysis, specifically the use of histopathological
+images to diagnose lung and colon cancer. The goal of this investigation is to use and adapt existing
+pre-trained CNN-based models, such as Xception, DenseNet201, ResNet101, InceptionV3, DenseNet121,
+DenseNet169, ResNet152, and InceptionResNetV2, to enhance classification through better augmentation
+strategies. The results show tremendous progress, with all eight models reaching impressive accuracy ranging
+from 97% to 99%. Furthermore, attention visualization techniques such as GradCAM, GradCAM++,
+ScoreCAM, Faster Score-CAM, and LayerCAM, as well as Vanilla Saliency and SmoothGrad, are used to
+provide insights into the models’ classification decisions, thereby improving interpretability and understanding
+of malignant and benign image classification. Our research implementations are open to the public at:
+https://github.com/Mukaffi28/Explainable-AI-for-Lung-and-Colon-Cancer-Classification
+
 
 
 ## Table of Contents
@@ -17,7 +33,8 @@
     
 ## Dataset Availability
 
-<!--We utilized the **LC25000** dataset, which comprises 25,000 color pictures of lung and colon tissues classified into five categories: colon cancer, benign colonic tissue, lung adenocarcinoma, lung squamous cell carcinoma, and benign lung tissue. Each class consists of 5,000 images cropped to 768 by 768 pixels. The collection is divided into colon and lung image sets in accordance with HIPAA compliance guidelines. It's instrumental in developing diagnostic tools for lung and colon cancers, driving progress in medical imaging research. -->
+
+We utilized the **LC25000** dataset.
 
 The dataset can be accessed from [here](https://www.kaggle.com/datasets/xilezhu/lc25000).
 
@@ -56,18 +73,16 @@ For any questions, collaboration opportunities, or further inquiries, please fee
   - Email: [brafa263.3@gmail.com](mailto:brafa263.3@gmail.com)
     
 ## Citation
-
-<!-- If you find the dataset or the associated research work helpful, please consider citing our paper:
-
+If you find the associated research work helpful, please consider citing our paper:
 ```bibtex
-@misc{faria2023vashantor,
-  title={Vashantor: A Large-scale Multilingual Benchmark Dataset for Automated Translation of Bangla Regional Dialects to Bangla Language},
-  author={Fatema Tuj Johora Faria and Mukaffi Bin Moin and Ahmed Al Wase and Mehidi Ahmmed and Md. Rabius Sani and Tashreef Muhammad},
-  year={2023},
-  eprint={2311.11142},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL}
-} -->
-
+@misc{moin2024exploringexplainableaitechniques,
+      title={Exploring Explainable AI Techniques for Improved Interpretability in Lung and Colon Cancer Classification}, 
+      author={Mukaffi Bin Moin and Fatema Tuj Johora Faria and Swarnajit Saha and Busra Kamal Rafa and Mohammad Shafiul Alam},
+      year={2024},
+      eprint={2405.04610},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2405.04610}, 
+}
 
 
